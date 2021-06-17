@@ -1,0 +1,564 @@
+body
+{
+    max-width: 1024px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color:ivory;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header 
+{
+    position: fixed;
+    top: 10px; 
+    background-color: rgba(226, 226, 226, 0.658);
+    z-index: 2;
+}
+
+
+td#language
+{
+    transition: 0.5s all;
+}
+
+td#language:hover
+{
+    transition: 0.5s all;
+    background-color: rgba(221, 221, 221, 0.575);
+    transform: scale(1.2);
+}
+
+td#tickettoride
+{
+    transition: 0.5s all;
+}
+
+td#tickettoride:hover
+{
+    transition: 0.5s all;
+    background-color: rgba(221, 221, 221, 0.575);
+    transform: scale(1.2);
+}
+
+td#access
+{
+    transition: 0.5s all;
+}
+
+td#access:hover
+{
+    transition: 0.5s all;
+    background-color: rgba(221, 221, 221, 0.575);
+    transform: scale(1.2);
+}
+
+td#menu
+{
+    transition: 0.5s all;
+}
+
+td#menu:hover
+{
+    transition: 0.5s all;
+    background-color: rgba(221, 221, 221, 0.575);
+    transform: scale(1.2);
+}
+/* スクロールの幅の設定 */
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* スクロールの背景の設定 */
+  html::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: 0 0 4px #aaa inset;
+  }
+  
+  /* スクロールのつまみ部分の設定 */
+  html::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #4d4d4d77;
+  }
+
+
+
+
+img#midashi
+{
+    animation-name: open-keyanime1 ; 
+    animation-duration: 2s; /* 5秒間で表示 */ 
+    animation-fill-mode: both;  
+    padding-right: 300px;
+}
+
+
+img#topimage
+{
+    padding-top: 20px;
+    margin: 0%;
+    margin: 0 calc(50% - 50vw);
+    transition:0.5s all;
+}
+
+img#topimage:hover
+{
+    transform:scale(1.01);
+    transition:1s all;
+}
+
+
+div.news
+{
+    margin: 0 calc(50% - 50vw);
+}
+
+/*ニュース1*/
+
+img#news1
+{
+    padding-right: 2px;
+    height: 250px;
+    transition:0.5s all;
+}
+
+img#news1:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#news1:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#news2
+{
+    height: 250px;
+    transition:0.5s all;
+    padding-right: 2px;
+}
+
+img#news2:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#news2:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#news3
+{
+    height: 250px;
+    transition:0.5s all;
+}
+
+img#news3:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#news3:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#floormap
+{
+    transition: 0.5s all;
+}
+
+img#floormap:hover
+{
+    transition: 0.5s all;
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+img#floormap:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#dictionary
+{
+    transition: 0.5s all;
+    padding-left: 30px;
+}
+
+img#dictionary:hover
+{
+    transition: 0.5s all;
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+img#dictionary:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#banner1
+{
+    transition: 0.5s all;
+    padding-left: 2px;
+}
+
+img#banner1:hover
+{
+    transition: 0.5s all;
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+img#banner1:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+table#top
+{
+    padding-top: 20px;
+}
+
+img#banner2
+{
+    transition: 0.5s all;
+    padding-left: 2px;
+}
+
+img#banner2:hover
+{
+    transition: 0.5s all;
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+img#banner2:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#banner3
+{
+    transition: 0.5s all;
+    padding-left: 2px;
+    padding-right: 120px;
+}
+
+img#banner3:hover
+{
+    transition: 0.5s all;
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+img#banner3:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+@keyframes open-keyanime1{ /* アニメーションの動き */ 
+    0% {
+      opacity:0; /* 完全に透明 */ } 
+    100% {
+      opacity:1; /* 透明度無し、通常表示 */ } 
+    } 
+  div.fade
+  { 
+    animation-name: open-keyanime1 ; 
+    animation-duration: 5s; /* 5秒間で表示 */ 
+    animation-fill-mode: both;  
+  }
+
+
+  div#priceboard
+  {
+      margin-bottom: 300px;
+  }
+
+
+img#model1
+{
+    padding-right: 2px;
+    height: 250px;
+    transition:0.5s all;
+}
+
+img#model1:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#model1:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#model2
+{
+    height: 250px;
+    transition:0.5s all;
+    padding-right: 2px;
+}
+
+img#model2:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#model2:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+img#model3
+{
+    height: 250px;
+    transition:0.5s all;
+}
+
+img#model3:hover
+{
+    transform:scale(1.03);
+    transition:0.5s all;
+    opacity:0.8;
+}
+
+img#model3:active
+{
+    transform:scale(0.95);
+    transition:0.1s all;
+}
+
+
+
+
+
+
+
+
+
+
+
+img#osusume
+{
+    padding-top: 50px;
+}
+
+h1.openinfo
+{
+    margin-top: 80px;
+    font-size:  30px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img.open
+{
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+
+h1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+h2
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+h3
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 53, 53);
+}
+
+h4
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 53, 53);
+}
+
+h5
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 53, 53);
+}
+
+a.link
+{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+img.news_midashi
+{
+    padding-top: 50px;
+}
+
+img#osusume
+{
+    padding-bottom: 3px;
+    margin-right: 27px;
+}
+
+table#notification
+{
+    border-collapse: separate;
+    border-spacing: 120px 0px;
+    margin-left: 90px;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: 1s all;
+}
+
+div#news:hover
+{
+    transition: 1s all;
+    transform: scale(1.05);
+}
+
+div#news
+{
+    transition: 1s all;
+}
+
+table#notification:hover
+{
+    transition: 1s all;
+    transform: scale(1.1);
+    background-color: rgba(190, 201, 231, 0.301)
+}
+
+table#newstext
+{
+    border-collapse: separate;
+    border-spacing: 105px 0px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+img#navimg
+{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px)
+{
+    body
+    {
+        width: 480px;
+        float: none;
+    }
+
+    img#midashi
+    {
+        width: 40%;
+    }
+
+    table#notification
+    {
+        font-size: 5%;
+        
+    }
+
+    
+    img#news1
+    {
+        width: auto;
+        height: 100px;
+    }
+
+    img#news2
+    {
+        width: auto;
+        height: 100px;
+    }
+
+    img#news3
+    {
+        width: auto;
+        height: 100px;
+    }
+
+    img#topimage
+    {
+        width: 90%;
+    }
+
+    img#osusume
+    {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    div#googlemap
+    {
+    padding-top: 20px;
+    margin: 0%;
+    margin: 0 calc(50% - 50vw);
+    }
+}
